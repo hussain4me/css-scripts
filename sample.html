@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample test</title>
+<style>
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.pix{
+    background: linear-gradient(to bottom right, #007adf 0%, #00ecbc 100%);
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pix img{
+    width: 180px;
+    height: 260px;
+}
+
+/* .detail p{
+    font-weight: 300px;
+    font-size: 16px;
+    font-family: sans-serif;
+} */
+
+p span{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    /* padding: 5px; */
+}
+
+.detail{
+    width: 400px;
+    height: 100px;
+    background-image:linear-gradient(to bottom right,#434343 0%, black 100%);
+    color: white;
+    margin: 0 auto;
+    white-space: nowrap;
+    /* padding: 1px; */
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 1px;
+
+    
+}
+
+</style>
+
+</head>
+<body>
+    <h2>Centering an elemen with flexbox</h2>
+
+    <div class="container">
+        <div class="pix">
+            <img src="cloud1.jfif" alt="">
+            
+        </div>
+        <div class="detail">
+            <p><span>Game :</span> Sonic the Hedgehog</p>
+            <p><span>Year :</span> 1999</p>
+            <p><span>Platform :</span> 5EGA</p>
+        </div>
+    </div>
+</body>
+</html>
